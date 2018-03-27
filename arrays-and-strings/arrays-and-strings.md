@@ -58,12 +58,17 @@ pale, bake  -> false
 ```
 
 ### 1.6 String Compression
-Implement a method to perform basic string using counts of repeated characters. If the compressed string would not become smaller than original string your method should return the original string. You can assume teh string has only uppercase and lowercase letters (a-z)
+Implement a method to perform basic string using counts of repeated characters. If the compressed string would not become smaller than original string your method should return the original string. You can assume the string has only uppercase and lowercase letters (a-z)
 
 ```
 Input: aabcccccaaa
 Output: a2b1c5a3
 ```
+
+Solution|Time Complexity|Space Complexity
+---|:---:|:---:
+[Solution 1](1.5/1-string-compression.java) | O(n) | O(n)
+[Solution 2](1.5/2-string-compression.java) | O(n) | O(n)
 
 ### 1.7 Rotate Matrix
 Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?

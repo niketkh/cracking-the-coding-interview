@@ -3,16 +3,13 @@
 ### 1.1 Is Unique
 Implement and algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
-#### Solutions
 Solution|Time Complexity|Space Complexity
----|:---:|---
-[Brute Force](1.1/1-brute-force.java)|O(n<sup>2</sup>)|O(1)
-
-* [Brute Force: O(n<sup>2</sup>)](1.1/1-brute-force.java)
-* [Using Sorting: O(nlogn)](1.1/2-using-sorting.java)
-* [Using HashSet: O(n)](1.1/3-using-hashset.java)
-* [Using 256 sized array: O(n)](1.1/4-using-256-sized-array.java)
-* [Using bit manipulation: O(n)](1.1/5-using-bit-manipulation.java)
+---|:---:|:---:
+[Brute Force](1.1/1-brute-force.java)                       |O(n<sup>2</sup>)|O(1)
+[Using Sorting](1.1/2-using-sorting.java)                   |O(nlogn)|O(1)
+[Using HashSet](1.1/3-using-hashset.java)                   |O(n)|O(n)
+[Using 256 sized array](1.1/4-using-256-sized-array.java)   |O(n)|O(1)
+[Using bit manipulation](1.1/5-using-bit-manipulation.java) |O(n)|O(1)
 
 ### 1.2 Check Permutation
 Given two strings, write a method to decide if one is permutation of other.

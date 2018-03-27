@@ -14,9 +14,10 @@ Solution|Time Complexity|Space Complexity
 ### 1.2 Check Permutation
 Given two strings, write a method to decide if one is permutation of other.
 
-#### Solutions
-* [Using Sorting: O(nlogn)](1.2/1-using-sorting.java)
-* [Using HashMap: O(n)](1.2/2-using-hashmap.java)
+Solution|Time Complexity|Space Complexity
+---|:---:|:---:
+[Using Sorting](1.2/1-using-sorting.java)   |O(nlogn)|O(1)
+[Using HashMap](1.2/2-using-hashmap.java)   |O(n)|O(n)
 
 ### 1.3 URLify
 Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold additional characters, and that you are given the "true" length of string. (Note: If implementing in Java, please use character array so that you can perform this operation in place.)
@@ -26,9 +27,10 @@ Input: "Mr John Smith      ", 13
 Output: "Mr%20John%20Smith"
 ```
 
-#### Solutions
-* [Using String Builder](1.3/1-using-stringbuilder.java)
-* [Inplace solution using char array](1.3/2-using-char-array-and-inplace.java)
+Solution|Time Complexity|Space Complexity
+---|:---:|:---:
+[Using String Builder](1.3/1-using-stringbuilder.java) | O(n) | O(n)
+[Inplace solution with input as char array](1.3/2-input-as-char-array-and-inplace.java)            | O(n) | O(1)
 
 
 ### 1.4 Palindrome Permutation

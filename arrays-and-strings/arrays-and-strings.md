@@ -41,6 +41,11 @@ Input: Tact Coa
 Output: True (permutations: "taco cat", "atco cta", etc.)
 ```
 
+Solution|Time Complexity|Space Complexity
+---|:---:|:---:
+[Naive Approach by generating all permutations](1.4/1-naive-solution-high-complexity.java)          | O(n!) | O(n!)
+[Using Palindrome Property](1.4/2-using-palindrome-property.java)                                                    | O(n) | O(n)
+
 ### 1.5 One Away
 There are three type of edits that can be performed on strings: Insert a character, remove a character, or replace a character. Give two strings, write a function to check if they are one edut (or zero edits) away.
 

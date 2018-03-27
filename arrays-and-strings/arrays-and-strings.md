@@ -85,5 +85,10 @@ Solution|Time Complexity|Space Complexity
 ### 1.8 Zero Matrix
 Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
 
+Solution|Time Complexity|Space Complexity
+---|:---:|:---:
+[Solution](1.8/1-zero-matrix.java) | O(n<sup>2</sup>) | O(n<sup>2</sup>)
+[Inplace Solution ??]              | O(n<sup>2</sup>) | O(1)
+
 ### 1.9 String Rotation
 Assume you have a method isSubstring which checks if one word is substring of another. Given two strings, s1 and s2 write code to check if s2 is rotation of s1 using only one call to isSubstring (e.g., "waterbottle" is a rotation of "erbottlewat").

@@ -3,6 +3,7 @@ public class Main {
     // Below solution valid only if string contains only a-z
     // Using Bit Manipulation on 32 bit integer
     // Set a bit corresponding to character if bit is already there is duplicate
+    // O(n)
     public boolean isUnique(String s) {
         int checker = 0;
         

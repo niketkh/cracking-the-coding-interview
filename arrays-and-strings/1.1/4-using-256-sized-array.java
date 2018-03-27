@@ -1,4 +1,6 @@
 public class Main {
+
+    // O(n)
     public boolean isUnique(String s) {
         if(s.length() > 256) return false;
         

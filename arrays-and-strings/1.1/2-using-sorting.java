@@ -1,4 +1,6 @@
 public class Main {
+
+    // O(nlogn)
     public boolean isUnique(String s) {
         char arr[] = s.toCharArray();
         Arrays.sort(arr);

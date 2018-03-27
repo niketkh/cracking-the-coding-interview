@@ -2,20 +2,23 @@
 
 * **1.1 Is Unique:** Implement and algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
     - [Solution using Brute Force: O(n<sup>2</sup>)](1.1/1-brute-force.java)
-    - [Solution using Sorting: O(nlogn)](1.1/2-using-sort.java)
+    - [Solution using Sorting: O(nlogn)](1.1/2-using-sorting.java)
     - [Solution using HashSet: O(n)](1.1/3-using-hashset.java)
     - [Solution using 256 sized array: O(n)](1.1/4-using-256-sized-array.java)
     - [Solution using bit manipulation: O(n)](1.1/5-using-bit-manipulation.java)
 
-
-
 * **1.2 Check Permutation:** Given two strings, write a method to decide if one is permutation of other.
+    - [Solution using Sorting: O(nlogn)](1.2/using-sorting.java)
+    - [Solution using HashMap: O(n)](1.2/using-hashmap.java)
 
 * **1.3 URLify:** Write a method to replace all spaces in a string with '%20'. You may assume that the string has sufficient space at the end to hold additional characters, and that you are given the "true" length of string. (Note: If implementing in Java, please use character array so that you can perform this operation in place.)
 ```
 Input: "Mr John Smith      ", 13
-Output: "Mr%20%John%20%Smith"
+Output: "Mr%20John%20Smith"
 ```
+    -   [Solution using String Builder](1.3/1-using-stringbuilder.java)
+    -   [Inplace solution using char array](1.3/2-using-char-array-and-inplace.java)
+
 
 * **1.4 Palindrome Permutation:** Given a string, write a function to check if it is a permutation of a palindrome. A palindrome is a word or phrase that is the same forwards and backwards. A permutation is rearrangement of letters. The palindrome does not need to be limited to just dictionary words.
 ```

@@ -1,4 +1,6 @@
 public class Main {
+
+    // O(n)
     public boolean isUnique(String s) {
         Set<Character> set = new HashSet<>();
         for(char c: s.toCharArray()){

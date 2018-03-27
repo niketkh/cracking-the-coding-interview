@@ -4,6 +4,10 @@
 Implement and algorithm to determine if a string has all unique characters. What if you cannot use additional data structures?
 
 #### Solutions
+Solution|Time Complexity|Space Complexity
+---|:---:|---
+[Brute Force](1.1/1-brute-force.java)|O(n<sup>2</sup>)|O(1)
+
 * [Brute Force: O(n<sup>2</sup>)](1.1/1-brute-force.java)
 * [Using Sorting: O(nlogn)](1.1/2-using-sorting.java)
 * [Using HashSet: O(n)](1.1/3-using-hashset.java)
